@@ -15,7 +15,7 @@ nav{
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .navbar{
-    width: 1140px;
+    max-width: 1140px;
     margin:0 auto;
     display: flex;
 }
@@ -63,27 +63,26 @@ line-height: normal;
 
 /* Goat banner section*/
 .GOAT-banner-container{
-   width: 1140px;
+   max-width: 1140px;
     margin:0 auto;
     display: flex;
 }
 .banner-items{
-    width:50%;
+    width:45%;
     background-image: url('images/Group\ 14.png');
-    /* background-repeat: no-repeat; */
     background-size:100%;
     display: flex;
     justify-content: center;
     align-content: flex-start;
     padding-top:150px;
-    /* background-attachment: fixed; */
+   
 }
 
    
 
 
 .GOAT-image{
-    width:50%;
+    width:55%;
     
 }
 .play{
@@ -145,9 +144,70 @@ padding: 10px 20px;
 }
 .kids-club-img{
     width: 100%;
-   
 }
 
+/* we are gamer section starts here */
+.masum{
+    max-width:1140px;
+    margin:0 auto;
+}
+
+.gamaer-parent{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px;
+    
+
+}
+
+.gamer-right{
+    max-width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+text-align: right;
+
+}
+
+.gamer-left{
+  
+    width:50%;
+}
+   
+
+.gamer-title{
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+font-weight: 700;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.gamer-des{
+    color: #534C64;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding:10px 0;
+}
+
+.gamer-left img{
+    width:100%;
+
+}
+
+.bold{
+    font-size:1rem;
+    font-weight: bold;
+}
 
     
    

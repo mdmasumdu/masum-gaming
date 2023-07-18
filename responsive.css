@@ -4,34 +4,56 @@
     }
         .left-nav{
             justify-content: center;
+            width: 100%;
         }
 
         .right-nav{
             flex-direction: column;
+            width:100%;
         }
+
+        /* banner section */
+
         .GOAT-banner-container{
+            gap:20px;
             flex-direction: column-reverse;
          
         }
     
           .banner-items{
             padding:30px;
-            width:45%
+            width:100%;
           }
           .GOAT-image{
-            width:40%;
+            margin-top:10px;
+            width:100%;
+          
           }
+
  
+ /* we are gamer */
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-     
+ .gamaer-parent{
+  flex-direction: column;
+  padding: 5px;
+
+ }
+ .gamer-right,.game-left{
+    width:100%;
+ }
+
+.gamer-left img{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
