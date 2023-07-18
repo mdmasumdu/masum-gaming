@@ -1,0 +1,37 @@
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+    }
+        .left-nav{
+            justify-content: center;
+        }
+
+        .right-nav{
+            flex-direction: column;
+        }
+        .GOAT-banner-container{
+            flex-direction: column-reverse;
+         
+        }
+    
+          .banner-items{
+            padding:30px;
+            width:45%
+          }
+          .GOAT-image{
+            width:40%;
+          }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+}
