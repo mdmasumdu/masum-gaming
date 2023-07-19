@@ -114,5 +114,84 @@
 .footer-container{
     padding:10px;
 }
+}
+
+@media  screen and (min-width:577px) and (max-width:992px) {
+
+    .navbar{
+        flex-direction: column;
+    }
+        .left-nav{
+            justify-content: center;
+            width: 100%;
+        }
+
+        .right-nav{
+            flex-direction: column;
+            width:100%;
+        }
+    
+        /* online section */
+
+.card-container{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   
+}
+
+/* play section */
+.play-left{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.play-isntant-container{
+    flex-direction: column;
+    margin:100px 50px;
+    gap:50px;
+    
+}
+.play-left-includer{
+    text-align: center;
+    width: 100%;
+}
+
+.play-right img{
+    width:100%
+}
+
+/* game types section */
+
+.footer-buttons{
+    grid-template-columns: repeat(3,100px);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.games-types{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    place-items:center;
+    column-gap: 10px;
+    padding:0px;
+    margin: 0px;
+ }
+ .games-types-section{
+     padding:5px;
+ }
+
+ /* foooter section */
+
+ .footer-buttons,.footer-icons,.footer-info{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap:20px;
+}
+.footer-container{
+    padding:10px;
+}
 
 }
