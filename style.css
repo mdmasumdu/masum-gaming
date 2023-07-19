@@ -15,7 +15,7 @@ nav{
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .navbar{
-    max-width: 1140px;
+    max-width: 1440px;
     margin:0 auto;
     display: flex;
 }
@@ -63,7 +63,7 @@ line-height: normal;
 
 /* Goat banner section*/
 .GOAT-banner-container{
-   max-width: 1140px;
+   max-width: 1440px;
     margin:0 auto;
     display: flex;
 }
@@ -148,7 +148,7 @@ padding: 10px 20px;
 
 /* we are gamer section starts here */
 .masum{
-    max-width:1140px;
+    max-width:1440px;
     margin:0 auto;
 }
 
@@ -209,6 +209,56 @@ background-clip: text;
     font-weight: bold;
 }
 
-    
+/* online games and fuuny videos section*/
+.online-section-head{
+    max-width:1440px;
+    margin:0 auto;
+}
+.online-title-container{
+    max-width: 450px;
+    text-align: center;
+    margin: 20px auto;
+}
+.online-title{
+    color: #0B0223;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.card img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.card{
+    width: 290px;
+height: 350px;
+flex-shrink: 0;
+border-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+margin:20px;
+}
+
+.card-container{
+   display: flex;
+   justify-content: center;
+    gap:10px;
+    max-width: 1440px;
+    margin: 0 auto;
    
+
+    
+}
  
