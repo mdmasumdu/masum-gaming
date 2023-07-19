@@ -186,6 +186,11 @@
     column-gap: 10px;
     padding:0px;
     margin: 0px;
+   
+ }
+
+ .card{
+    margin-bottom:50px;
  }
  .games-types-section{
      padding:5px;
