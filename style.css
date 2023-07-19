@@ -57,6 +57,18 @@ line-height: normal;
    align-items: center;
 }
 
+.you{
+    color: red;
+}
+.tiktok{
+    color:radial-gradient(#FF2D55, #000000);
+}
+.btn-sec{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
 
 
 
@@ -75,7 +87,7 @@ line-height: normal;
     justify-content: center;
     align-content: flex-start;
     padding-top:150px;
-   
+    
 }
 
    
@@ -145,6 +157,9 @@ padding: 10px 20px;
 .kids-club-img{
     width: 100%;
 }
+
+
+
 
 /* we are gamer section starts here */
 .masum{
@@ -258,7 +273,28 @@ margin:20px;
     max-width: 1440px;
     margin: 0 auto;
 }
- 
+
+.for-watch{
+    position: relative;
+}
+
+.watch-icon img{
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.watch-icon {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    y-index: 1; 
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* play instantly section */
 
 .play-isntant-container{
@@ -334,6 +370,7 @@ line-height: 60px;
    border-radius: 50px;
  background-color:#FFF;
  padding: 2px;
+
 }
 
  .game-box:hover{
