@@ -55,10 +55,25 @@
     gap:40px;
     flex-direction: column;
     align-items: center;
-     /* margin-left:2rem; */
+   
 }
 
+/* play section */
+.play-left,.play-right{
+    width:100%;
+}
+.play-isntant-container{
+    flex-direction: column;
+    margin:100px 50px;
+    gap:50px;
+}
+.play-left-includer{
+    text-align: center;
+}
 
+.play-right img{
+    width:100%
+}
 
 
 
