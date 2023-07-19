@@ -86,12 +86,33 @@
    padding:0px;
    margin: 0px;
 }
+.games-types-section{
+    padding:5px;
+}
 
 
+/* footer section */
+.footer-buttons{
+    grid-template-columns: repeat(3,100px);
+    row-gap: 30px;
+    column-gap: 30px;
+}
 
+.footer-icons{
+    grid-template-columns: repeat(3,100px);
+    row-gap: 30px;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-info{
+    grid-template-columns: repeat(2,150px);
+    row-gap: 30px;
+    column-gap: 30px;
+}
 
-
-
-
+.footer-container{
+    padding:10px;
+}
 
 }

@@ -319,7 +319,10 @@ line-height: 60px;
  .games-types-section{
     max-width:1440px;
     margin: 0 auto;
- }
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 50px;
+}
+
 
 .game-box{
     display: flex;
@@ -329,9 +332,18 @@ line-height: 60px;
    height: 55px;
    flex-shrink: 0;
    border-radius: 50px;
- background-color:azure; 
-   
+ background-color:#FFF;
+ padding: 2px;
 }
+
+ .game-box:hover{
+    border:1px solid red;
+    color: red;
+ }
+
+
+   
+
 .games-types{
    
     display: flex;
@@ -344,4 +356,62 @@ line-height: 60px;
 
 .games-types img{
     width:50px;
+}
+
+
+/* footer section */
+
+.footers{
+    background: #0B0223;
+}
+.footer-container{
+    max-width: 1440px;
+    margin:0 auto;
+}
+
+.footer-logo{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    gap:5px;
+}
+
+.footer-buttons{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(6,150px);
+    justify-content: center;
+    margin-top: 50px;
+}
+.ftn{
+font-size: 1rem;
+font-style: normal;
+line-height: normal;
+}
+.footer-icons{
+    color:white;
+   display: grid;
+   grid-template-columns: repeat(6,100px);
+   justify-content: center;
+   margin-top:50px;
+}
+
+.icons{
+    font-size:2.6rem;
+}
+
+.footer-info{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    justify-content: center;
+    margin-top: 50px;
+}
+.footer-copy{
+    color:white;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 100px;
 }
