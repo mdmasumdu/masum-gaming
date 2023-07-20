@@ -29,13 +29,11 @@
             width:100%;
           
           }
-
- 
+        
  /* we are gamer */
  
  .gamaer-parent{
   flex-direction: column;
-  padding: 5px;
 
  }
  .gamer-right,.game-left{
@@ -47,6 +45,10 @@
 }
 .gamer-right{
     text-align: center;
+}
+
+.gamer-des{
+    padding: 0px;
 }
 
 /* online section */
@@ -110,6 +112,7 @@
     column-gap: 30px;
     justify-content: center;
     align-items: center;
+    padding-left: 2rem;
 }
 .footer-info{
     grid-template-columns: repeat(2,150px);
